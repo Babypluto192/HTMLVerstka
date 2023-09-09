@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 16px;
+
+}
+
+h1, h2 , h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  width: 1170px;
+    margin: 0 216px;
+
+}
+.header {
+    background: url("img_2.png") no-repeat center top / cover;
+    padding-top: 57px;
+    padding-bottom: 322px
+}
+.logo {
+    margin-right: 69px;
+}
+
+header a {
+    color: #fff;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li {
+   margin-right: 40px;
+}
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+.content {
+    margin-top: 320px;
+}
+.content p {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    width: 400px;
+    height: 44px;
+}
+
+.content h1 {
+    font-size: 100px;
+
+    letter-spacing: 0.02em;
+    margin-top: -9px;
+    height: 147px;
+    margin-bottom: 19px;
+}
+.content a {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    border: #fff solid 1px;
+    padding: 17px 47px;
+    width: 238px;
+    transition: all ease 0.5s;
+}
+p {
+    margin: 0;
+}
+
+.content a:hover {
+    color: black;
+    background: white;
+}
+
+section {
+    padding-top: 113px;
+}
+.about {
+    font-size: 50px;
+}
+#about {
+    color: black;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    width: 1164px;
+
+}
+
+.description p {
+    line-height: 1.62em;
+    text-align: justify;
+}
+
+.description h3 {
+    font-size: 25px;
+}
+
+.leftpart .rightpart {
+    width: 537px;
+}
+
+.leftpart {
+    margin-right: 36px;
+}
+
+.gallery {
+    padding-top: 84px;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+
+}
+
+.gallery img {
+    transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+
+
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    display: flex;
+    font-size: 15px;
+    padding: 114px 0
+}
+.footer-text p {
+    margin-right: 67px;
+}
